@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>tiktok clone</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="app__videos">
+    
+    <div class="video">
+<video class="video__player" src="video1.mp4"></video>
+    </div class="videosidebar">
+
+</div class="videosidebar__button">
+<span class="material-icon"><favorite_border class="PNG"></favorite_border></span>
+<p>12</p>
+    </div>
+
+</div class="videosidebar__button">
+<span class="material-icon"><message class="PNG"></message></span>
+<p>23</p>
+    </div>
+
+</div class="videosidebar__button">
+<span class="material-icon"><share class="PNG"></share></span>
+<p>75</p>
+</div>
+</div>
+
+       <div class="videoFooter">
+<div class="videoFooter__text">
+    <h3>pitoco dugera</h3>
+    <p class="videoFooter__description">
+        dancinha dugera.
+    </p>
+</div class="videoFooter__ticket">
+<span class="material-icons videoFooter__icon">music_note</span>
+<marquee>nome da musica</marquee>
+</div>
+
+</div>
+   <img src="https://static.thenounproject.com/png/934821-200.png" 
+   alt="" class="videoFooter__record">
+</div>
+<div class="app__videos">
+    
+    <div class="video">
+<video class="video__player" src="video2.mp4"></video>
+    </div class="videosidebar">
+
+</div class="videosidebar__button">
+<span class="material-icon"><favorite_border class="PNG"></favorite_border></span>
+<p>12</p>
+    </div>
+
+</div class="videosidebar__button">
+<span class="material-icon"><message class="PNG"></message></span>
+<p>23</p>
+    </div>
+
+</div class="videosidebar__button">
+   <span class="material-icon"><share class="PNG"></share></span>
+<p>75</p>
+</div>
+</div>
+
+       <div class="videofooter">
+<div class="videofooter__text">
+    <h3>pitoco dugera</h3>
+    <p class="videofooter__description">
+        dancinha dugera.
+    </p>
+</div class="videofooter__ticket">
+<span class="material-icons videofooter__icon"><music_note class="PNG"></music_note></span>
+<marquee>nome da musica</marquee>
+</div>
+
+</div>
+   <img src="https://static.thenounproject.com/png/934821-200.png" alt="" class="videofooter__record">
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+const videos = document.querySelectorAll('video');
+
+for(const video of videos){
+    video.addEventListener('click' , function(){
+if(video.paused){
+    video.play();
+
+  } else{
+    video.pause();
+  }
+ })
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
